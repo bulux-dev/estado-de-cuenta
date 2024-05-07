@@ -1,0 +1,61 @@
+/* Estilos para el contenedor del formulario */
+.login_container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: url(fondo.png), #7b4397;
+    background: url(fondo.png), -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
+    background: url(fondo.png), linear-gradient(to left, #7b4397, #dc2430)
+}
+
+h1 {
+    text-align: center;
+}
+
+
+/* Estilos para los títulos */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/* Estilos para los campos del formulario */
+.form_group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Estilos para el botón de enviar */
+button[type="submit"] {
+    display: block; /* Para que el margin: auto funcione */
+    margin: 0 auto; /* Centrar horizontalmente */
+    width: 50%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
